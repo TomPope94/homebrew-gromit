@@ -1,11 +1,11 @@
 class Gromit < Formula
   desc "The gromit CLI and sidecar"
   homepage "https://github.com/TomPope94/gromit-releases"
-  version "0.2.0"
+  version "0.3.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/TomPope94/gromit-releases/releases/download/v0.2.0/gromit-aarch64-apple-darwin.tar.xz"
-      sha256 "1dc0796b99ef837617caca49f68c0327626bb48eae100d4b7f0ab4d12a0510d5"
+      url "https://github.com/TomPope94/gromit-releases/releases/download/v0.3.0/gromit-aarch64-apple-darwin.tar.xz"
+      sha256 "93a9671e23df33b2bac6e492d8ce625f2e124146d46d6fd3d39b013891e811c1"
     end
   end
   license "MIT"
